@@ -12,7 +12,6 @@ public class NumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
-        for (int i = 0; i < engNumbers.length; i++)
-            Log.i("NumbersActivity", "word at index " + i + " : " + engNumbers[i]);
+        
     }
 }
