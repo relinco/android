@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OnMusic</string>
+    <string name="home_page">Home Page</string>
+    <string name="on_play">Play On</string>
+    <string name="music_shop">Information</string>
+    <string name="local_music">Local Music</string>
+    <string name="shop_list">Shop List</string>
+    <string name="go_back">Go Back</string>
+    <string name="local_music_describe">this field is prepare for the local music list, the question is how to list the multiply music, when click it, you will go to the onPlay activity</string>
+    <string name="music_shop_describe">this field is prepare for the music shop, when you click it, you will go to the imformation activity </string>
+    <string name="play_on_describe">this field is prepare for the play on screen, it should implement the easy player</string>
+    <string name="information_describe">this field is prepare for the information screen, it should implement the cd introduce and the pay service</string>
+</resources>

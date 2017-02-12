@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SHOT</string>
+    <string name="init">0 : 0</string>
+    <string name="team_left_name">L</string>
+    <string name="team_right_name">R</string>
+    <string name="shot">shot</string>
+    <string name="zero">0</string>
+    <string name="offend">offend</string>
+    <string name="reset">reset</string>
+</resources>

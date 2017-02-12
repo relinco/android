@@ -1,0 +1,9 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1377858709000 3148 89ecff1d421b10aab49bc2c1884dd3aa6f97f24f D:\workspace\android\clock-master\src\com\example\clock\ClockView.java
+1377858709000 886 33d943bf0dc4d7e78262e325699c0cdcce81dbdc D:\workspace\android\clock-master\src\com\example\clock\MyPagerAdapter.java
+1377858709000 1049 a2c538e59523889e5a7bccb29306bbde48ca5e2e D:\workspace\android\clock-master\src\com\example\clock\AlarmRemindsActivity.java
+1377858709000 671 9f05c8d99bfb134bb763b16752c647d66a7b8a34 D:\workspace\android\clock-master\src\com\example\clock\BroadcastClock.java
+1377858709000 5615 8985b4c2fb3c890ccf080795db29d5a58e574f71 D:\workspace\android\clock-master\src\com\example\clock\MainActivity.java
+1377858709000 5842 64e14116487577bd22adc4a47249c4237bca8a3e D:\workspace\android\clock-master\src\com\example\clock\AlarmClock.java

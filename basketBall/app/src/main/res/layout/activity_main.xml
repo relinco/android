@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.basketball.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorCrimson"></View>
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorDarkBlue"></View>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/teamLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/team_left_name"
+        android:textSize="@dimen/text_title" />
+
+    <TextView
+        android:id="@+id/teamRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/team_right_name"
+        android:textSize="@dimen/text_title" />
+
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/init"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/text_center" />
+
+    <Button
+        android:id="@+id/buttonLeftShot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textScore"
+        android:layout_toLeftOf="@id/textScore"
+        android:background="@color/colorDarkBlue"
+        android:onClick="shotLeft"
+        android:text="@string/shot"
+        android:textSize="@dimen/text_shot" />
+
+    <Button
+        android:id="@+id/buttonRightShot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textScore"
+        android:layout_toRightOf="@id/textScore"
+        android:background="@color/colorCrimson"
+        android:onClick="shotRight"
+        android:text="@string/shot"
+        android:textSize="@dimen/text_shot" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:onClick="buttonReset"
+        android:text="@string/reset"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/redLeft"
+            style="@style/button_offend"
+            android:background="@color/colorCrimson"
+            android:onClick="offendRedL"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/yellowLeft"
+            style="@style/button_offend"
+            android:background="@color/colorYellow"
+            android:onClick="offendYellowL"
+            android:text="@string/zero" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/offend"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_offend" />
+
+        <Button
+            android:id="@+id/yellowRight"
+            style="@style/button_offend"
+            android:background="@color/colorYellow"
+            android:onClick="offendYellowR"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/redRight"
+            style="@style/button_offend"
+            android:background="@color/colorCrimson"
+            android:onClick="offendRedR"
+            android:text="@string/zero" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/zero"
+    android:paddingLeft="@dimen/zero"
+    android:paddingRight="@dimen/zero"
+    android:paddingTop="@dimen/zero"
+    tools:context="com.example.android.countcounter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_teamA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_vertical_margin"
+                android:gravity="center"
+                android:text="teamA"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/textViewA_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_vertical_margin"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/button_3point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="addThreeForA"
+                android:text="+3 Point" />
+
+            <Button
+                android:id="@+id/button_2point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="addTwoForA"
+                android:text="+2 Point" />
+
+            <Button
+                android:id="@+id/button_freeThrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="addOneForA"
+                android:text="Free Throw" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:id="@+id/textView6" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_teamB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_vertical_margin"
+                android:gravity="center"
+                android:text="teamB"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/textViewB_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_vertical_margin"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/button_3point_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="addThreeForB"
+                android:text="+3 Point" />
+
+            <Button
+                android:id="@+id/button_2point_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="addTwoForB"
+                android:text="+2 Point" />
+
+            <Button
+                android:id="@+id/button_freeThrow_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:onClick="addOneForB"
+                android:text="Free Throw" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:onClick="oncllickReset"
+        android:text="Reset" />
+
+</LinearLayout>

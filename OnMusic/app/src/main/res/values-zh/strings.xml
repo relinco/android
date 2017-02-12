@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OnMusic</string>
+    <string name="home_page">主页</string>
+    <string name="music_shop">详细信息</string>
+    <string name="on_play">正在播放</string>
+    <string name="local_music">本地乐曲</string>
+    <string name="shop_list">售卖列表</string>
+</resources>

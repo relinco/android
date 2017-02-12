@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">古文观止</string>
+    <string name="button_submit">到此为止</string>
+    <string name="question1">1.忽如一夜春风来，千树万树____开。</string>
+    <string name="question1_1">梨花</string>
+    <string name="question1_2">桃花</string>
+    <string name="question1_3">杏花</string>
+    <string name="question2">2.白日依山尽，____入海流。</string>
+    <string name="question2_1">长河</string>
+    <string name="question2_2">长江</string>
+    <string name="question2_3">黄河</string>
+    <string name="question3">3.“一门父子三词客”指得是</string>
+    <string name="question3_1">苏洵</string>
+    <string name="question3_2">苏俞</string>
+    <string name="question3_3">苏轼</string>
+    <string name="question3_4">苏辙</string>
+    <string name="question4">4.“此中有真意”的下一句是？</string>
+    <string name="question4_hint">请写一句古诗。</string>
+    <string name="question4_answer">欲辨已忘言。</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="time">时钟</string>
+    <string name="alarm_clock">闹钟</string>
+    <string name="title_activity_alarm_clcok">AlarmClcokActivity</string>
+    <string name="add_clock">添加闹钟</string>
+    <string name="clock">添加闹钟</string>
+    <string name="title_activity_alarm_clock">AlarmClock</string>
+    <string name="contentdescription_image">move</string>
+    <string name="stop_watch">秒表</string>
+    <string name="calculator">计算器</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="set_alarm">设置闹钟</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+    <string name="remove">取消闹钟</string>
+    <string name="quote">:</string>
+    <string name="alarm_remind">闹铃时间到</string>
+    <string name="alarm_stop">结束闹铃</string>
+    <string name="title_activity_alarm_reminds">AlarmRemindsActivity</string>
+
+</resources>

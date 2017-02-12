@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_item"
+        android:title="Add"
+        android:visible="true"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:checkable="false" />
+    <item
+        android:id="@+id/remove_item"
+        android:title="Remove"
+        android:visible="true"
+        android:enabled="true"
+        app:showAsAction="always" />
+</menu>

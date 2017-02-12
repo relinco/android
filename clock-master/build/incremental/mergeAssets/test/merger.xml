@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\workspace\android\clock-master\tests\assets" />
+    </dataSet>
+
+</merger>
